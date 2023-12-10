@@ -50,3 +50,9 @@ After creating a group, we can add the templates into the group. The `Display Na
 In our case, this is how it can look like, if we want to group multiple versions of the same OS together.
 
 ![Screenshot of an example template group](/assets/images/example_template_group.png)
+
+### Custom Configuration Changes
+
+Based within `src/main.rs` is a subsection bracketed within lines 47-72. This is where the template locations are located. You may add or remove these entries to either add partial or custom installation of templates at your discretion. The templates added here are maintained by the developers in a fully compatible manner. There is no guarantee that the addition of templates of an unknown source may not pose a security risk. These templates utilize Cloud-init for most applicable variables applied.
+
+
